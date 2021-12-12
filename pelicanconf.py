@@ -67,6 +67,8 @@ PAGINATION_PATTERNS = (
 )
 
 TEMPLATE_PAGES = {'wakeup/index.html': 'wakeup/index.html'}
+STATIC_PATHS = ['uploads', 'wakeup']
+
 
 
 # Theme Settings
