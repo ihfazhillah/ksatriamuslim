@@ -12,8 +12,6 @@ collections: # A list of collections the CMS should be able to edit
     folder: "content" # The path to the folder where the documents are stored
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
-    format: "yaml-frontmatter"
-    frontmatter_delimiter: ["\n\n\n", "\n\n\n"]
     identifier_field: Title
     fields: # The fields each document in this collection have
       - {label: "Title", name: "Title", widget: "string", tagname: "h1", class: "entry-title"}
