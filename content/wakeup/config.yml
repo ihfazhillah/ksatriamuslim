@@ -13,10 +13,12 @@ collections: # A list of collections the CMS should be able to edit
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     format: "frontmatter"
+    frontmatter_delimiter: ""
     fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string", tagname: "h1", class: "entry-title"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Category", name: "category", widget: "string", default: "General"}
+      - {label: "Title", name: "Title", widget: "string", tagname: "h1", class: "entry-title"}
+      - {label: "Publish Date", name: "Date", widget: "datetime"}
+      - {label: "Authors", name: "Authors", widget: "string", default: "Ihfazhillah"}
+      - {label: "Category", name: "Category", widget: "string", default: "General"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
     label: "Pages"
