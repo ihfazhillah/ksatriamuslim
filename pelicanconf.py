@@ -66,7 +66,9 @@ PAGINATION_PATTERNS = (
     (2, '{base_name}/{number}/', '{base_name}/{number}/index.html'),
 )
 
-TEMPLATE_PAGES = {'wakeup/index.html': 'wakeup/index.html'}
+TEMPLATE_PAGES = {
+    'wakeup/index.html': 'wakeup/index.html'
+}
 STATIC_PATHS = ['uploads', 'wakeup']
 
 
