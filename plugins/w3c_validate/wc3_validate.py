@@ -2,7 +2,7 @@
 """
 W3C HTML Validator plugin for genrated content.
 """
-
+import sys
 
 from pelican import signals
 import logging
@@ -32,10 +32,14 @@ def validate(filename):
     :param filename: the filename to validate
     """
     # Python3 html parser is in different spot
-    from html.parser import HTMLParser
     from py_w3c.validators.html.validator import HTMLValidator
 
-    h = HTMLParser()  # for unescaping WC3 messages
+    if sys.version_info[0] >= 3:
+        import html as h
+    else:
+        from six.moves import html_parser
+        h = html_parser.HTMLParser()
+
 
     vld = HTMLValidator()
     LOG.info("Validating: {0}".format(filename))
