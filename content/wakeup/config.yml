@@ -10,7 +10,6 @@ collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Article" # Used in the UI, ie.: "New Post"
     folder: "content" # The path to the folder where the documents are stored
-    format: markdown-python
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
@@ -25,7 +24,6 @@ collections: # A list of collections the CMS should be able to edit
       - name: "about"
         label: "About"
         file: "content/pages/about.md"
-        format: markdown-python
         fields:
           - {label: "Page Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
