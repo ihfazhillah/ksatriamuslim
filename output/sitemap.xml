@@ -5,35 +5,49 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2021-12-12T20:27:03-00:00</lastmod>
+<lastmod>2021-12-12T21:18:06-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2021-12-12T20:27:03-00:00</lastmod>
+<lastmod>2021-12-12T21:18:06-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2021-12-12T20:27:03-00:00</lastmod>
+<lastmod>2021-12-12T21:18:06-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2021-12-12T20:27:03-00:00</lastmod>
+<lastmod>2021-12-12T21:18:06-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/wakeup/index.html</loc>
-<lastmod>2021-12-12T20:27:03-00:00</lastmod>
+<lastmod>2021-12-12T21:18:06-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/2021/12/12/test/</loc>
+<lastmod>2021-12-12T14:12:19+00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.99</priority>
+</url>
+
+<url>
+<loc>/category/general</loc>
+<lastmod>2021-12-12T14:12:19+07:07</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
