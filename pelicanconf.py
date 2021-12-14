@@ -77,3 +77,4 @@ STATIC_PATHS = ['uploads', 'wakeup']
 THEME = 'themes/brutalist'
 
 GOOGLE_ANALYTICS = 'G-EEZ521Z3B8'
+FB_PIXEL = '227923979366433'
