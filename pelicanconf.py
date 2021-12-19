@@ -32,7 +32,7 @@ DEFAULT_PAGINATION = 15
 
 # PLUGINS
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['sitemap', 'category_order', 'w3c_validate', 'optimize_images', 'gzip_cache']
+PLUGINS = ['sitemap', 'category_order', 'w3c_validate', 'optimize_images', 'gzip_cache', 'json_list']
 
 ## SITEMAP PLUGIN
 SITEMAP = {
@@ -69,7 +69,15 @@ PAGINATION_PATTERNS = (
 TEMPLATE_PAGES = {
     'wakeup/index.html': 'wakeup/index.html'
 }
-STATIC_PATHS = ['uploads', 'wakeup', 'ksatriamuslim_backgrounds', 'ksatriamuslim_books']
+
+JSON_LIST_PATHS = [
+    "ksatriamuslim_backgrounds",
+    "ksatriamuslim_books"
+]
+
+STATIC_PATHS = ['uploads', 'wakeup']
+STATIC_PATHS += JSON_LIST_PATHS
+
 
 
 

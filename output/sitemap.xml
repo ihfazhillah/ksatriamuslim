@@ -5,49 +5,49 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2021-12-12T21:36:51-00:00</lastmod>
+<lastmod>2021-12-19T11:58:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2021-12-12T21:36:51-00:00</lastmod>
+<lastmod>2021-12-19T11:58:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2021-12-12T21:36:51-00:00</lastmod>
+<lastmod>2021-12-19T11:58:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2021-12-12T21:36:51-00:00</lastmod>
+<lastmod>2021-12-19T11:58:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/wakeup/index.html</loc>
-<lastmod>2021-12-12T21:36:51-00:00</lastmod>
+<lastmod>2021-12-19T11:58:21-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/2021/12/12/test/</loc>
-<lastmod>2021-12-12T14:32:26+00:00</lastmod>
+<loc>/2021/12/12/artikel-baru/</loc>
+<lastmod>2021-12-12T14:38:34+00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.99</priority>
 </url>
 
 <url>
 <loc>/category/general</loc>
-<lastmod>2021-12-12T14:32:26+07:07</lastmod>
+<lastmod>2021-12-12T14:38:34+07:07</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
