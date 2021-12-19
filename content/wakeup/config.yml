@@ -22,7 +22,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "content"
         widget: "list"
         allow_add: true
-        field:
+        fields:
           - label: "Page Text"
             name: "page_text"
             widget: "string"
