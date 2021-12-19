@@ -20,6 +20,7 @@ class JSONListGenerator(Generator):
 
         for key, paths in groups.items():
             index_path = os.path.join(self.output_path, key + "/index.json")
+            os.makedirs(os.path.dirname(index_path), exist_ok=True)
             with open(index_path, "w") as fp:
                 json.dump(paths, fp)
 
