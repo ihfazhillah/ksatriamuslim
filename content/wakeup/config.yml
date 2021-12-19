@@ -23,9 +23,7 @@ collections: # A list of collections the CMS should be able to edit
         widget: "list"
         allow_add: true
         fields:
-          - label: "Page Text"
-            name: "page_text"
-            widget: "string"
+          - {label: "Page Text" ,name: "page_text", widget: "string"}
 
   - name: "ksatria_muslim_backgrounds"
     label: "Background Ksatria Muslim"
