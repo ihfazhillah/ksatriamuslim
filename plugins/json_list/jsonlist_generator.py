@@ -22,7 +22,7 @@ class JSONListGenerator(Generator):
             index_path = os.path.join(self.output_path, key + "/index.json")
             os.makedirs(os.path.dirname(index_path), exist_ok=True)
             with open(index_path, "w") as fp:
-                json.dump(paths, fp)
+                json.dump({"urls": paths}, fp)
 
 
 def get_generators(generators):
