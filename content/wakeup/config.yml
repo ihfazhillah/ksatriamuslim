@@ -18,7 +18,14 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Thumbnail", name: "thumbnail", widget: "image"}
-      - {label: "Content", name: "content", widget: "list", allow_add: true}
+      - label: "Content"
+        name: "content"
+        widget: "list"
+        allow_add: true
+        field:
+          - label: "Page Text"
+            name: "page_text"
+            widget: "string"
 
   - name: "ksatria_muslim_backgrounds"
     label: "Background Ksatria Muslim"
