@@ -7,6 +7,32 @@ media_folder: "content/uploads" # Folder where user uploaded files should go
 public_folder: "content"
 
 collections: # A list of collections the CMS should be able to edit
+  - name: "ksatria_muslim_books"
+    label: "Artikel Android untuk Ksatria Muslim"
+    folder: "content/ksatriamuslim_books"
+    create: true
+    extension: "json"
+    format: "json"
+    editor:
+      preview: false
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image"}
+      - {label: "Content", name: "content", widget: "list", allow_add: true}
+
+  - name: "ksatria_muslim_backgrounds"
+    label: "Background Ksatria Muslim"
+    folder: "content/ksatriamuslim_backgrounds"
+    create: true
+    extension: "json"
+    format: "json"
+    editor:
+      preview: false
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Background Image", name: "background_image", widget: "image"}
+      - {label: "Text Color", name: "text_color", widget: "color"}
+
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Article" # Used in the UI, ie.: "New Post"
     folder: "content" # The path to the folder where the documents are stored
