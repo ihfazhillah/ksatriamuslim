@@ -75,7 +75,7 @@ JSON_LIST_PATHS = [
     "ksatriamuslim_books"
 ]
 
-STATIC_PATHS = ['uploads', 'wakeup']
+STATIC_PATHS = ['uploads', 'wakeup', "ksatriamuslim_audios"]
 STATIC_PATHS += JSON_LIST_PATHS
 
 
