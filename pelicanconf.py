@@ -71,11 +71,12 @@ TEMPLATE_PAGES = {
 }
 
 JSON_LIST_PATHS = [
-    "ksatriamuslim_backgrounds",
-    "ksatriamuslim_books"
+        "ksatriamuslim_backgrounds",
+        "ksatriamuslim_books",
+        "ksatriamuslim_audios"
 ]
 
-STATIC_PATHS = ['uploads', 'wakeup', "ksatriamuslim_audios"]
+STATIC_PATHS = ['uploads', 'wakeup',]
 STATIC_PATHS += JSON_LIST_PATHS
 
 
