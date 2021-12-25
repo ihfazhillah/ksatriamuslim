@@ -1,0 +1,10 @@
+{
+  "title": "test-book",
+  "thumbnail": "uploads/kisah-buhairo-thumbn.png",
+  "ref": "haha",
+  "content": [
+    {
+      "page_text": "test"
+    }
+  ]
+}
