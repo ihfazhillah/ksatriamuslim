@@ -8,7 +8,7 @@ Summary: Update kedua tentang aplikasi Jadwal-Ku. Event management system berbas
 
 Bismillah
 
-Alhamdulillah setelah dua pekan, [Jadwalku]() kembali ada update. Perubahan meliputi:
+Alhamdulillah setelah dua pekan, [Jadwalku](https://github.com/ihfazhillah/Jadwal-Ku) kembali ada update. Perubahan meliputi:
 
 1. Login Logout
 2. Navigation antar halaman utama menggunakan bottom navigation bar
@@ -29,6 +29,6 @@ https://youtube.com/shorts/sgjHEYDx1do?feature=share
 
 
 Yap, ini perjalanan yang sangat panjang. Development meliputi ui ux design (alakadarnya :D), android menggunakan kotlin MVC pattern
-mengikuti metoda TDD dan kemudian [backend menggunakan django]() dan juga pakai TDD
+mengikuti metoda TDD dan kemudian [backend menggunakan django](https://github.com/ihfazhillah/ksatriamuslim_backend) dan juga pakai TDD
 
 Sampai bertemu kembali di perubahan selanjutnya.
