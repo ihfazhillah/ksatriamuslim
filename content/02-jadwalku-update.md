@@ -20,12 +20,10 @@ Berikut beberapa tangkapan video
 
 #### Login Logout
 
-https://youtube.com/shorts/-ye3-qs05jA?feature=share
+<iframe width="440" height="782" src="https://www.youtube.com/embed/-ye3-qs05jA" title="login logout - jadwalku" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 #### Navigation, list dan infinite scrolling
-
-https://youtube.com/shorts/sgjHEYDx1do?feature=share
 
 <iframe width="440" height="782" src="https://www.youtube.com/embed/sgjHEYDx1do" title="navigation and list - jadwalku" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
