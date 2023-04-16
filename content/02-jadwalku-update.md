@@ -27,6 +27,8 @@ https://youtube.com/shorts/-ye3-qs05jA?feature=share
 
 https://youtube.com/shorts/sgjHEYDx1do?feature=share
 
+<iframe width="440" height="782" src="https://www.youtube.com/embed/sgjHEYDx1do" title="navigation and list - jadwalku" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 Yap, ini perjalanan yang sangat panjang. Development meliputi ui ux design (alakadarnya :D), android menggunakan kotlin MVC pattern
 mengikuti metoda TDD dan kemudian [backend menggunakan django](https://github.com/ihfazhillah/ksatriamuslim_backend) dan juga pakai TDD

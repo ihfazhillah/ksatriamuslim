@@ -88,8 +88,8 @@ THEME = 'themes/brutalist'
 GOOGLE_ANALYTICS = 'G-EEZ521Z3B8'
 FB_PIXEL = '227923979366433'
 
-MARKDOWN = {
-    "extension_configs": {
-        "mdx_video": {},
-    }
-}
+# MARKDOWN = {
+#     "extension_configs": {
+#         "mdx_video": {},
+#     }
+# }
